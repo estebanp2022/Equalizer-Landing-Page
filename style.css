@@ -1,0 +1,235 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("./starter-code/assets/bg-main-desktop.png");
+  background-size: 1613px 1758px;
+  background-position: left -146px top -112;
+  width: 1440px;
+  height: 1832px;
+  font-family: "IBM Plex Sans", sans-serif;
+}
+
+h1 {
+  font-size: 88px;
+  line-height: 88px;
+  letter-spacing: -1px;
+  margin-top: 0;
+  margin-bottom: 36px;
+  position: absolute;
+  width: 1015px;
+  height: 176px;
+  left: 165px;
+  top: 221px;
+}
+
+.logo-top {
+  position: absolute;
+  width: 146.09px;
+  height: 32px;
+  left: 166.15px;
+  top: 61.99px;
+  margin-bottom: 127px;
+}
+
+.header-description {
+  margin-top: 0;
+  position: absolute;
+  width: 825px;
+  height: 102px;
+  left: 164.5px;
+  top: 437px;
+}
+
+h2 {
+  font-size: 40px;
+  line-height: 52px;
+  margin-top: 0;
+  margin-bottom: 22px;
+}
+
+.card-description {
+  margin-top: 0;
+  margin-bottom: 39px;
+}
+
+.header-description,
+.card-description {
+  font-size: 20px;
+  line-height: 34px;
+}
+
+.bottom {
+  position: absolute;
+  width: 1110px;
+  height: 79px;
+  left: 165px;
+  top: 1662px;
+}
+
+.logo-bottom {
+  position: absolute;
+  width: 146.09px;
+  height: 32px;
+  left: 1.15px;
+  top: -0.01px;
+}
+
+.contact-info {
+  width: 366px;
+  height: 79px;
+  position: absolute;
+  left: 25.68%;
+  right: 41.35%;
+  top: 0%;
+  bottom: 0%;
+}
+
+.social-media-svgs {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  width: 100px;
+  height: 20px;
+  margin: 29px 0 30px 1010px;
+}
+
+/* buttons */
+.btn {
+  width: 333px;
+  height: 61px;
+  border: none;
+  border-radius: 10px;
+  font-size: 18px;
+}
+
+.ios-btn {
+  color: #fcfaf9;
+  background-color: #191826;
+  margin-bottom: 12px;
+}
+
+.android-btn {
+  color: #191826;
+  background-color: #fcfaf9;
+  margin-bottom: 48px;
+}
+
+.ios-btn:hover {
+  background-color: #66e2dc;
+}
+
+.android-btn:hover {
+  background-color: #ffb964;
+}
+
+.ios-btn:hover,
+.android-btn:hover {
+  cursor: pointer;
+}
+
+/* images */
+.img-1 {
+  position: absolute;
+  width: 312px;
+  height: 468px;
+  left: 1128px;
+  top: -40px;
+}
+
+.img-2 {
+  position: absolute;
+  width: 312px;
+  height: 468px;
+  left: 501px;
+  top: 820px;
+}
+
+.img-3 {
+  position: absolute;
+  width: 280px;
+  height: 606px;
+  left: 283px;
+  top: 666px;
+}
+
+.background {
+  border-radius: 10px;
+  z-index: -1;
+  background-color: #191826;
+  position: absolute;
+  width: 1110px;
+  height: 600px;
+  left: 165px;
+  top: 860px;
+}
+
+.card {
+  position: absolute;
+  width: 446px;
+  height: 625px;
+  left: 734px;
+  top: 950px;
+  background: #fa7453;
+  color: #fcfaf9;
+  border-radius: 12px;
+  padding: 58px 59px 48px 54px;
+}
+
+.pricing {
+  display: flex;
+  align-items: center;
+}
+
+.price {
+  font-weight: 700;
+  font-size: 65px;
+  line-height: 52px;
+  margin-right: 16px;
+  margin-top: 0;
+  margin-bottom: 50px;
+}
+
+.month {
+  font-size: 20px;
+  line-height: 32px;
+  margin-bottom: 61px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: 62px 165px 91px;
+}
+
+/* desktop */
+@media (max-width: 1440px) {
+  body {
+    background-image: url("./starter-code/assets/bg-main-desktop.png");
+  }
+}
+
+/* tablet */
+@media (max-width: 768px) {
+  body {
+    background-image: url("./starter-code/assets/bg-main-tablet.png");
+    background-size: 200%;
+    background-position: top -300px right -300px;
+  }
+
+  .btn {
+    width: 296px;
+  }
+}
+
+/* mobile */
+@media (max-width: 375px) {
+  body {
+    background-image: url("./starter-code/assets/bg-main-mobile.png");
+  }
+
+  .btn {
+    width: 296px;
+  }
+}

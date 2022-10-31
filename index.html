@@ -3,6 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
 
     <link
       rel="icon"
@@ -11,26 +17,104 @@
       href="./assets/favicon-32x32.png"
     />
     <link rel="stylesheet" href="style.css" />
-    <title>Equalizer landing page</title>
+    <title>Equalizer Landing Page</title>
   </head>
   <body>
-    We make your music sound extraordinary. A system audio equalizer
-    specifically designed for Android and iOS. Freely tune the way your music
-    sounds with a professional grade parametric EQ & volume mixer. Control bass,
-    mids, treble, gain control, reverb, and more! Premium EQ Get expert-level
-    control with a robust equalizer, volume mixer, and spatial audio. Take your
-    listening experience to a whole new level and access all our incredible
-    features! $4 / month iOS Download Android Download All rights reserved ©
-    Equalizer 2021 Have any problems? Contact us via social media or email us at
-    equalizer@example.com
+    <main class="container">
+      <header class="top">
+        <img
+          class="logo logo-top"
+          src="./starter-code/assets/logo.svg"
+          alt=""
+        />
+        <h1>We make your music sound extraordinary.</h1>
+        <p class="header-description">
+          A system audio equalizer specifically designed for Android and iOS.
+          Freely tune the way your music sounds with a professional grade
+          parametric EQ & volume mixer. Control bass, mids, treble, gain
+          control, reverb, and more!
+        </p>
+        <img
+          class="img-1"
+          src="./starter-code/assets/bg-pattern-1.svg"
+          alt=""
+        />
+      </header>
 
-    <p class="attribution">
+      <div class="middle">
+        <img
+          class="img-2"
+          src="./starter-code/assets/bg-pattern-2.svg"
+          alt=""
+        />
+        <img
+          class="img-3"
+          src="./starter-code/assets/illustration-app.png"
+          alt=""
+        />
+        <div class="background"></div>
+        <div class="card">
+          <h2>Premium EQ</h2>
+          <p class="card-description">
+            Get expert-level control with a robust equalizer, volume mixer, and
+            spatial audio. Take your listening experience to a whole new level
+            and access all our incredible features!
+          </p>
+          <div class="pricing">
+            <p class="price">$4</p>
+            <p class="month">/ month</p>
+          </div>
+          <div>
+            <button class="ios-btn btn">
+              <img src="./starter-code/assets/icon-apple.svg" alt="" /> iOS
+              Download
+            </button>
+            <button class="android-btn btn">
+              <img src="./starter-code/assets/icon-android.svg" alt="" />
+              Android Download
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <footer class="bottom">
+        <img
+          src="./starter-code/assets/logo.svg"
+          alt=""
+          class="logo logo-bottom"
+        />
+        <p class="contact-info">
+          All rights reserved © Equalizer 2021<br />
+          Have any problems? Contact us via social media or email us at
+          <span class="email"><b>equalizer@example.com</b></span>
+        </p>
+        <div class="social-media-svgs">
+          <img
+            class="fb-svg"
+            src="./starter-code/assets/icon-facebook.svg"
+            alt=""
+          />
+          <img
+            class="ig-svg"
+            src="./starter-code/assets/icon-instagram.svg"
+            alt=""
+          />
+          <img
+            class="twitter-svg"
+            src="./starter-code/assets/icon-twitter.svg"
+            alt=""
+          />
+        </div>
+      </footer>
+    </main>
+
+    <!-- <p class="attribution">
       Coded by
       <a
         href="https://www.frontendmentor.io/profile/estebanp2022"
         target="_blank"
         >Esteban Pesantes</a
       >.
-    </p>
+    </p> -->
   </body>
 </html>
