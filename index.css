@@ -53,13 +53,16 @@ body {
 }
 
 /* mobile */
-@media (min-width: 375px) {
+@media (min-width: 300px) {
   body {
     background-image: url("./starter-code/assets/bg-main-mobile.png");
+    max-width: 375px;
+    display: flex;
   }
 
   .top {
-    /* position: absolute; */
+    order: -3;
+    position: relative;
     padding: 40px 24px 68px;
   }
 
@@ -76,6 +79,14 @@ body {
 
   .header-description {
     line-height: 26px;
+  }
+
+  /* .test {
+    position: relative;
+  } */
+
+  .middle {
+    position: absolute;
   }
 
   .img-1 {
@@ -110,6 +121,7 @@ body {
   }
 
   .card {
+    max-width: 375px;
     position: absolute;
     z-index: 5;
     background: #fa7453;
@@ -151,6 +163,7 @@ body {
   }
 
   .bottom {
+    order: 3;
     position: absolute;
     bottom: 0;
     padding: 0 24px 50px;
@@ -173,9 +186,8 @@ body {
   }
 
   .attribution {
-    position: absolute;
+    position: relative;
     bottom: 0px;
-    left: 24px;
   }
 }
 
@@ -185,6 +197,7 @@ body {
     background-image: url("./starter-code/assets/bg-main-tablet.png");
     background-size: 200%;
     background-position: top -300px right -300px;
+    max-width: 768px;
   }
 
   .top {
@@ -264,10 +277,6 @@ body {
     align-items: center;
     justify-content: space-between;
   }
-
-  .attribution {
-    left: 33px;
-  }
 }
 
 /* desktop */
@@ -275,8 +284,7 @@ body {
   body {
     background-image: url("./starter-code/assets/bg-main-desktop.png");
     background-size: 1613px 1758px;
-    background-position: left -146px top -112;
-    width: 100%;
+    background-position: left -546px top -112;
     max-width: 1440px;
   }
 
@@ -355,6 +363,7 @@ body {
   }
 
   .attribution {
-    left: 40%;
+    position: absolute;
+    bottom: 40px;
   }
 }
