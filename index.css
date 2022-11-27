@@ -61,8 +61,8 @@ body {
   }
 
   .top {
-    order: -3;
-    position: relative;
+    /* order: -3;
+    position: relative; */
     padding: 40px 24px 68px;
   }
 
@@ -81,12 +81,8 @@ body {
     line-height: 26px;
   }
 
-  /* .test {
-    position: relative;
-  } */
-
   .middle {
-    position: absolute;
+    position: relative;
   }
 
   .img-1 {
@@ -163,8 +159,8 @@ body {
   }
 
   .bottom {
-    order: 3;
-    position: absolute;
+    /* order: 3;
+    position: absolute; */
     bottom: 0;
     padding: 0 24px 50px;
   }
