@@ -5,6 +5,7 @@
 body {
   margin: 0 auto;
   font-family: "IBM Plex Sans", sans-serif;
+  color: #191826;
 }
 
 .container {
@@ -52,13 +53,13 @@ body {
 }
 
 /* mobile */
-@media (max-width: 375px) {
+@media (min-width: 375px) {
   body {
     background-image: url("./starter-code/assets/bg-main-mobile.png");
   }
 
   .top {
-    position: relative;
+    /* position: absolute; */
     padding: 40px 24px 68px;
   }
 
@@ -173,10 +174,132 @@ body {
 }
 
 /* tablet */
-@media (max-width: 768px) {
+@media (min-width: 768px) {
   body {
     background-image: url("./starter-code/assets/bg-main-tablet.png");
     background-size: 200%;
     background-position: top -300px right -300px;
+  }
+
+  .top {
+    padding: 62px 0 102px 39px;
+  }
+
+  .logo {
+    margin-bottom: 95px;
+  }
+
+  h1 {
+    width: 65%;
+    font-size: 4rem;
+    line-height: 64px;
+    letter-spacing: -0.73px;
+    margin-bottom: 28px;
+  }
+
+  .header-description {
+    width: 70%;
+    font-size: 18px;
+    line-height: 28px;
+    margin-top: 0;
+  }
+
+  .img-1 {
+    display: block;
+    position: absolute;
+    top: -30px;
+    right: -35px;
+    width: 267px;
+    height: 400px;
+  }
+
+  .background {
+    width: 696px;
+    height: 600px;
+    top: 761px;
+    left: 33px;
+  }
+
+  .img-2 {
+    width: 280px;
+    height: 420px;
+    top: 730px;
+    left: 262px;
+  }
+
+  .img-3 {
+    width: 270.21px;
+    height: 556px;
+    top: 623px;
+    left: 97px;
+  }
+
+  .card {
+    width: 399px;
+    height: 546px;
+    top: 906px;
+    left: 270px;
+  }
+
+  .bottom {
+    padding: 0 39px 85px 33px;
+  }
+
+  .logo-bottom {
+    margin-bottom: 32px;
+  }
+
+  .contact-info {
+    margin-bottom: 0;
+  }
+
+  .footer-details {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+
+/* desktop */
+@media (min-width: 1440px) {
+  body {
+    background-image: url("./starter-code/assets/bg-main-desktop.png");
+    background-size: 1613px 1758px;
+    background-position: left -146px top -112;
+    width: 100%;
+    max-width: 1440px;
+  }
+
+  .background {
+    width: 1110px;
+    height: 600px;
+    top: 860px;
+    left: 165px;
+  }
+
+  .img-1 {
+    width: 312px;
+    height: 468px;
+  }
+
+  .img-2 {
+    width: 312px;
+    height: 468px;
+    top: 820px;
+    left: 501px;
+  }
+
+  .img-3 {
+    width: 312px;
+    height: 642px;
+    top: 647px;
+    left: 267px;
+  }
+
+  .card {
+    width: 446px;
+    height: 625px;
+    left: 734px;
+    top: 950px;
   }
 }
