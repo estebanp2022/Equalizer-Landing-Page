@@ -171,3 +171,12 @@ body {
     height: 20px;
   }
 }
+
+/* tablet */
+@media (max-width: 768px) {
+  body {
+    background-image: url("./starter-code/assets/bg-main-tablet.png");
+    background-size: 200%;
+    background-position: top -300px right -300px;
+  }
+}

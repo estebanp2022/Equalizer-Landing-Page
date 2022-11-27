@@ -6,19 +6,6 @@ body {
   max-width: 1440px; */
 }
 
-/* tablet */
-@media (max-width: 768px) {
-  body {
-    background-image: url("./starter-code/assets/bg-main-tablet.png");
-    background-size: 200%;
-    background-position: top -300px right -300px;
-  }
-
-  .btn {
-    width: 296px;
-  }
-}
-
 /* desktop */
 @media (max-width: 1440px) {
   body {
