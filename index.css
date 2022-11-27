@@ -1,0 +1,179 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  font-family: "IBM Plex Sans", sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.logo {
+  width: 146px;
+  height: 32px;
+}
+
+/* buttons */
+.btn {
+  border: none;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  width: 296px;
+  height: 61px;
+  margin-bottom: 16px;
+}
+
+.ios-btn {
+  color: #fcfaf9;
+  background-color: #191826;
+}
+
+.android-btn {
+  color: #191826;
+  background-color: #fcfaf9;
+}
+
+.ios-btn:hover {
+  background-color: #66e2dc;
+}
+
+.android-btn:hover {
+  background-color: #ffb964;
+}
+
+.ios-btn:hover,
+.android-btn:hover {
+  cursor: pointer;
+}
+
+/* mobile */
+@media (max-width: 375px) {
+  body {
+    background-image: url("./starter-code/assets/bg-main-mobile.png");
+  }
+
+  .top {
+    /* order: 1;
+    position: relative; */
+    padding: 40px 24px 68px;
+  }
+
+  .logo-top {
+    margin-bottom: 64px;
+  }
+
+  h1 {
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: -0.45px;
+    margin: 0 0 20px;
+  }
+
+  .header-description {
+    line-height: 26px;
+  }
+
+  .img-1 {
+    display: none;
+  }
+
+  .middle {
+    /* order: 2;
+    position: relative; */
+  }
+
+  .img-2 {
+    width: 280px;
+    /* position: absolute;
+    z-index: 1;
+    left: 50px; */
+    /* bottom: -1060px; */
+  }
+
+  .img-3 {
+    width: 209px;
+    height: 430px;
+    /* z-index: 2;
+    position: absolute;
+    left: 80px;
+    bottom: -550px; */
+  }
+
+  .background {
+    border-radius: 10px;
+    /* z-index: -1; */
+    /* bottom: -200px; */
+    background-color: #191826;
+    /* position: absolute; */
+    width: 375px;
+    height: 600px;
+  }
+
+  .card {
+    /* position: absolute;
+    z-index: 5; */
+    /* top: -20px; */
+    background: #fa7453;
+    color: #fcfaf9;
+    border-radius: 12px;
+    padding: 48px 37px;
+    margin-bottom: 64px;
+  }
+
+  h2 {
+    margin: 0 0 12px;
+  }
+
+  .card-description {
+    font-size: 18px;
+    line-height: 28px;
+    margin: 0 0 36px;
+  }
+
+  .pricing {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 0 32px;
+    width: 165px;
+  }
+
+  .price {
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 52px;
+    margin: 0;
+  }
+  .month {
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: -0.2px;
+  }
+
+  .bottom {
+    /* position: relative;
+    order: 3; */
+    padding: 0 24px 80px;
+  }
+
+  .logo-bottom {
+    margin-bottom: 32px;
+  }
+
+  .contact-info {
+    margin: 0 0 64px;
+    line-height: 26px;
+  }
+
+  .social-media-svgs {
+    display: flex;
+    justify-content: space-between;
+    width: 100px;
+    height: 20px;
+  }
+}
