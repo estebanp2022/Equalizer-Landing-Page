@@ -58,6 +58,7 @@ body {
   }
 
   .top {
+    position: relative;
     padding: 40px 24px 68px;
   }
 
@@ -80,15 +81,12 @@ body {
     display: none;
   }
 
-  .middle {
-    position: relative;
-  }
-
   .img-2 {
     width: 280px;
     position: absolute;
     z-index: 1;
-    top: -20px;
+    top: 622px;
+    left: 48px;
   }
 
   .img-3 {
@@ -97,16 +95,17 @@ body {
     z-index: 2;
     position: absolute;
     left: 80px;
+    top: 524px;
   }
 
   .background {
     border-radius: 10px;
     z-index: -1;
-    top: -50px;
     background-color: #191826;
     position: absolute;
     width: 375px;
     height: 600px;
+    top: 622px;
   }
 
   .card {
@@ -117,6 +116,7 @@ body {
     border-radius: 12px;
     padding: 48px 37px;
     margin-bottom: 64px;
+    top: 1000px;
   }
 
   h2 {
@@ -150,7 +150,9 @@ body {
   }
 
   .bottom {
-    padding: 0 24px 80px;
+    position: absolute;
+    bottom: 0;
+    padding: 0 24px 50px;
   }
 
   .logo-bottom {
