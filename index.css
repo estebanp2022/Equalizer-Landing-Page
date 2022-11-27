@@ -58,8 +58,6 @@ body {
   }
 
   .top {
-    /* order: 1;
-    position: relative; */
     padding: 40px 24px 68px;
   }
 
@@ -83,41 +81,37 @@ body {
   }
 
   .middle {
-    /* order: 2;
-    position: relative; */
+    position: relative;
   }
 
   .img-2 {
     width: 280px;
-    /* position: absolute;
+    position: absolute;
     z-index: 1;
-    left: 50px; */
-    /* bottom: -1060px; */
+    top: -20px;
   }
 
   .img-3 {
     width: 209px;
     height: 430px;
-    /* z-index: 2;
+    z-index: 2;
     position: absolute;
     left: 80px;
-    bottom: -550px; */
   }
 
   .background {
     border-radius: 10px;
-    /* z-index: -1; */
-    /* bottom: -200px; */
+    z-index: -1;
+    top: -50px;
     background-color: #191826;
-    /* position: absolute; */
+    position: absolute;
     width: 375px;
     height: 600px;
   }
 
   .card {
-    /* position: absolute;
-    z-index: 5; */
-    /* top: -20px; */
+    position: absolute;
+    z-index: 5;
     background: #fa7453;
     color: #fcfaf9;
     border-radius: 12px;
@@ -156,8 +150,6 @@ body {
   }
 
   .bottom {
-    /* position: relative;
-    order: 3; */
     padding: 0 24px 80px;
   }
 
