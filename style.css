@@ -346,11 +346,11 @@ h2 {
   }
 
   h2 {
-    font-size: 40px;
+    font-size: 2.5rem;
   }
 
   .card-description {
-    font-size: 20px;
+    font-size: 1.25rem;
     line-height: 34px;
   }
 
@@ -363,16 +363,16 @@ h2 {
     width: 100%;
     display: flex;
     flex-direction: row;
-    padding: 0 165px 91px;
+    padding: 0 10.3125em 5.69em;
   }
 
   .logo-bottom {
-    margin-right: 138px;
+    margin-right: 8.625em;
   }
 
   .contact-info {
     width: 50%;
-    margin-right: 359px;
+    margin-right: 22.44em;
   }
 
   .social-media-svgs {
