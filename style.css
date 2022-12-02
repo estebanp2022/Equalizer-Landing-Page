@@ -88,6 +88,7 @@ body {
     width: 100%;
     display: grid;
     grid-template: repeat(8, 95px) / repeat(8, 46.87px);
+    margin-bottom: 64px;
   }
 
   .img-1 {
@@ -124,7 +125,6 @@ body {
     color: #fcfaf9;
     border-radius: 12px;
     padding: 48px 37px;
-
     grid-column: 1 / -1;
     grid-row: 6 / 10;
   }
@@ -161,7 +161,7 @@ body {
   }
 
   .btn {
-    width: 396px;
+    width: 296px;
     height: 61px;
   }
 
@@ -184,6 +184,11 @@ body {
     justify-content: space-between;
     width: 100px;
     height: 20px;
+  }
+
+  .attribution {
+    margin: 0 auto;
+    margin-bottom: 40px;
   }
 }
 
@@ -220,7 +225,8 @@ body {
   }
 
   .middle {
-    grid-template: repeat(9, 110px) / 33px repeat(8, 87.75px) 33px;
+    grid-template: repeat(9, 105px) / 33px repeat(8, 87.75px) 33px;
+    margin-bottom: 0;
   }
 
   .img-1 {
@@ -371,10 +377,5 @@ body {
 
   .social-media-svgs {
     justify-self: end;
-  }
-
-  .attribution {
-    position: absolute;
-    bottom: 0;
   }
 }
