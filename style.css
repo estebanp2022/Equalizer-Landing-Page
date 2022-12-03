@@ -12,6 +12,7 @@ body {
   font-family: "IBM Plex Sans", sans-serif;
   color: #191826;
   background-image: url("./starter-code/assets/bg-main-mobile.png");
+  max-width: 23.44em;
 }
 
 .container {
@@ -199,6 +200,7 @@ h2 {
     background-image: url("./starter-code/assets/bg-main-tablet.png");
     background-size: 200%;
     background-position: top -300px right -300px;
+    max-width: 48em;
   }
 
   .top {
@@ -286,7 +288,7 @@ h2 {
     background-image: url("./starter-code/assets/bg-main-desktop.png");
     background-size: 1613px 1758px;
     background-position: left -546px top -112;
-    max-width: 1440px;
+    max-width: 90em;
   }
 
   .top {
